@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "morin127-longctx_jd054"
+name = "morin127-tail_latency_jitter_coverage_map"
 version = "0.1.0"
 description = "把候选项映射到类别上，算出长上下文优化工程师·尾延迟抖动与首 token 时间的覆盖率并列出未覆盖的类别"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://morin127.github.io"
-Repository = "https://github.com/morin127/longctx_jd054"
-Issues = "https://github.com/morin127/longctx_jd054/issues"
+Repository = "https://github.com/morin127/tail_latency_jitter_coverage_map"
+Issues = "https://github.com/morin127/tail_latency_jitter_coverage_map/issues"
 
 [project.scripts]
-longctx_jd054 = "longctx_jd054:main"
+tail_latency_jitter_coverage_map = "tail_latency_jitter_coverage_map:main"
 
 [tool.setuptools]
-py-modules = ["longctx_jd054"]
+py-modules = ["tail_latency_jitter_coverage_map"]
